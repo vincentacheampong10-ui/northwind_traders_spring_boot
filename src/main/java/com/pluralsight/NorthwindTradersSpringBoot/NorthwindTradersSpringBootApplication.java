@@ -20,7 +20,6 @@ public class NorthwindTradersSpringBootApplication {
             if (packageName.startsWith("com.pluralsight.NorthwindTradersSpringBoot")) {
                 System.out.println(beanName + " -> " + bean.getClass().getSimpleName());
 
-                System.out.println("STARTING...");
             }
         }
     }
